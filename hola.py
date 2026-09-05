@@ -9,3 +9,10 @@ class Person:
 
 persona1 = Person('Zaul')
 persona1.hablar()
+
+frutas = ['Pera', 'Manzana']
+frutas.append('Uva')
+print(frutas)
+
+
+print("olaa")
