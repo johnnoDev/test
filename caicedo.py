@@ -1,18 +1,16 @@
 print('Caicedo')
 
-class Caicedo:
-    def __init__(self, nombre, apellido, migajero=True):
+print("adhdjbajdads")
+
+
+class Persona:
+    def __init__(self, nombre, edad, pais):
         self.nombre = nombre
-        self.apellido = apellido
-        self.migajero = migajero
+        self.edad = edad
+        self.pais = pais
 
-    def migajear(self, persona):
-            return f'Estoy migajeando a.... {persona}'
+    def migajiar(self, nombre):
+        return f'{nombre} dame migajas'
 
-    def __str__(self):
-        return f'{self.nombre} {self.apellido} es migajero: {self.migajero}'
-
-
-caicedo = Caicedo('Jonnathan', 'Caiza')
-print(caicedo.migajear('Abbi'))
-print(caicedo)
+caiza = Persona('caiza', 19, 'Ecuador')
+print(caiza.migajiar("abbii"))
