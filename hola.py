@@ -8,4 +8,4 @@ class Person:
         return 'Cinthia te amo'
 
 persona1 = Person('Zaul')
-persona1.hablar
+persona1.hablar()
